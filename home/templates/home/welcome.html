@@ -1,7 +1,0 @@
-{% extends "base.html" %}
-
-{% block content %}
-    <h1>Witaj w aplikacji DjangoNotes!</h1>
-    <p>Dziś jest {{today}}</p>
-    <a href="{% url 'notes.list' %}" class="btn btn-primary">Sprawdź te notatki!</a>
-{% endblock %}
