@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Witaj w Django Notatki!</h1>
+    <h1>Witaj w aplikacji DjangoNotes!</h1>
     <p>Dziś jest {{today}}</p>
-    <a href="{% url 'notes.list' %}" class="btn btn-primary">Check out these smart notes!</a>
+    <a href="{% url 'notes.list' %}" class="btn btn-primary">Sprawdź te notatki!</a>
 {% endblock %}
